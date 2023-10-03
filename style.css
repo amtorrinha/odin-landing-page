@@ -1,0 +1,168 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* First Section */
+
+.first-section {
+    background: #1F2937;
+    padding: 8px 128px;
+    padding-bottom: 64px;
+
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    color: #E5E7EB;
+    font-size: 18px;
+    list-style-type: none;
+
+    display: flex;
+    gap: 32px;
+}
+
+.first-section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.first-section-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-secondary-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.sign-up-button, .sign-up-button-fourth {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 8px;
+    border-width: 0;
+    width: 128px;
+    height: 32px;
+}
+
+/* Second Section */
+.second-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:32px;
+    padding: 32px 128px;
+}
+
+.random-info {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.second-section-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.second-section-sub-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.text {
+    font-size: 18px;
+    text-align: center;
+    /* color: #E5E7EB; */
+}
+
+/* Third Section */
+
+.third-section {
+    background: #E5E7EB;
+    padding: 64px 256px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font: italic;
+    color: #1F2937;
+}
+
+.quote-signature {
+    text-align: end;
+    font-weight: bold;
+}
+
+/* Fourth Section */
+
+.fourth-section {
+    padding: 64px 128px;
+}
+
+.fourth-section-content {
+    background-color: #3882F6;
+    padding: 64px;
+    border-radius: 24px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fourth-main-text {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.fourth-sub-text {
+    color: white;
+    font-size: 18px;
+}
+
+.sign-up-button-fourth {
+    border-width: 2px;
+    border-color: #F9FAF8;
+    border-style: solid;
+}
+
+/* Footer */
+
+.footer {
+    background: #1F2937;
+    text-align: center;
+    color: #F9FAF8;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
