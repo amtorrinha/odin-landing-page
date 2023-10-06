@@ -1,3 +1,4 @@
+# odin-landing-page
 This project consists of a dummy landing page using relatively simple HTML elements and CSS styling.
 
 The main goal was to reproduce the page from a pre-existing design, while respecting the several sections' dimensions, alignments and contents.
